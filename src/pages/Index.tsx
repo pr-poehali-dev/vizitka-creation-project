@@ -10,6 +10,15 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-transparent to-indigo-600/10"></div>
         <div className="relative container mx-auto px-4 py-16">
           <div className="text-center space-y-8 max-w-4xl mx-auto">
+            {/* Logo */}
+            <div className="animate-scale-in mb-8">
+              <img 
+                src="https://cdn.poehali.dev/files/c121f24e-0ce0-48e7-8eaa-491a2824e430.png" 
+                alt="Agro Harvest Logo" 
+                className="mx-auto h-24 md:h-32 w-auto object-contain hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            
             {/* Main Title */}
             <div className="animate-fade-in">
               <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800 bg-clip-text text-transparent leading-tight">
