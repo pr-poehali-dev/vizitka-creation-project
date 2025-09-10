@@ -4,10 +4,10 @@ import Icon from "@/components/ui/icon";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-orange-50 to-green-100">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-transparent to-indigo-600/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-green-600/10 via-transparent to-orange-600/10"></div>
         <div className="relative container mx-auto px-4 py-16">
           <div className="text-center space-y-8 max-w-4xl mx-auto">
             {/* Logo */}
@@ -21,10 +21,10 @@ const Index = () => {
             
             {/* Main Title */}
             <div className="animate-fade-in">
-              <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800 bg-clip-text text-transparent leading-tight">
+              <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-green-600 via-orange-600 to-green-800 bg-clip-text text-transparent leading-tight">
                 Сайт в разработке
               </h1>
-              <div className="h-1 w-32 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto mt-6 rounded-full animate-pulse"></div>
+              <div className="h-1 w-32 bg-gradient-to-r from-green-500 to-orange-500 mx-auto mt-6 rounded-full animate-pulse"></div>
             </div>
 
             {/* Subtitle */}
@@ -36,7 +36,7 @@ const Index = () => {
             <div className="animate-scale-in" style={{ animationDelay: "0.4s" }}>
               <Card className="max-w-2xl mx-auto bg-white/80 backdrop-blur-sm border-0 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
                 <CardHeader className="text-center pb-4">
-                  <div className="mx-auto mb-4 p-4 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full w-fit">
+                  <div className="mx-auto mb-4 p-4 bg-gradient-to-r from-green-500 to-orange-500 rounded-full w-fit">
                     <Icon name="Rocket" size={32} className="text-white" />
                   </div>
                   <CardTitle className="text-2xl md:text-3xl font-bold text-slate-800">
@@ -49,20 +49,20 @@ const Index = () => {
                 <CardContent className="text-center space-y-6">
                   <div className="grid grid-cols-3 gap-4 py-6">
                     <div className="space-y-2">
-                      <div className="mx-auto w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                        <Icon name="Palette" size={24} className="text-blue-600" />
+                      <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                        <Icon name="Palette" size={24} className="text-green-600" />
                       </div>
                       <p className="text-sm font-medium text-slate-600">Дизайн</p>
                     </div>
                     <div className="space-y-2">
-                      <div className="mx-auto w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
-                        <Icon name="Code" size={24} className="text-indigo-600" />
+                      <div className="mx-auto w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
+                        <Icon name="Code" size={24} className="text-orange-600" />
                       </div>
                       <p className="text-sm font-medium text-slate-600">Разработка</p>
                     </div>
                     <div className="space-y-2">
-                      <div className="mx-auto w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                        <Icon name="Sparkles" size={24} className="text-blue-600" />
+                      <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                        <Icon name="Sparkles" size={24} className="text-green-600" />
                       </div>
                       <p className="text-sm font-medium text-slate-600">Магия</p>
                     </div>
@@ -78,7 +78,7 @@ const Index = () => {
               </h3>
               
               <Button 
-                className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 group"
+                className="bg-gradient-to-r from-green-500 to-orange-500 hover:from-green-600 hover:to-orange-600 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 group"
                 onClick={() => window.open('https://t.me/+QgiLIa1gFRY4Y2Iy', '_blank')}
               >
                 <Icon name="Send" size={24} className="mr-3 group-hover:translate-x-1 transition-transform duration-300" />
@@ -95,18 +95,18 @@ const Index = () => {
 
       {/* Floating Elements */}
       <div className="fixed top-20 left-10 opacity-20 animate-bounce" style={{ animationDelay: "2s", animationDuration: "3s" }}>
-        <div className="w-4 h-4 bg-blue-400 rounded-full"></div>
+        <div className="w-4 h-4 bg-green-400 rounded-full"></div>
       </div>
       <div className="fixed top-40 right-20 opacity-20 animate-bounce" style={{ animationDelay: "1s", animationDuration: "4s" }}>
-        <div className="w-6 h-6 bg-indigo-400 rounded-full"></div>
+        <div className="w-6 h-6 bg-orange-400 rounded-full"></div>
       </div>
       <div className="fixed bottom-32 left-20 opacity-20 animate-bounce" style={{ animationDelay: "3s", animationDuration: "2.5s" }}>
-        <div className="w-5 h-5 bg-blue-300 rounded-full"></div>
+        <div className="w-5 h-5 bg-green-300 rounded-full"></div>
       </div>
 
       {/* Progress Bar */}
       <div className="fixed bottom-0 left-0 right-0 h-1 bg-slate-200">
-        <div className="h-full bg-gradient-to-r from-blue-500 to-indigo-500 animate-pulse" style={{ width: "75%" }}></div>
+        <div className="h-full bg-gradient-to-r from-green-500 to-orange-500 animate-pulse" style={{ width: "75%" }}></div>
       </div>
     </div>
   );
